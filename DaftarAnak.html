@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/DaftarAnak.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Mali&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Daftar Anak TK Al-Muhajirin</title>
+    <style>
+      #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        font-size: 24px;
+        border: none;
+        outline: none;
+        background-color: #479242;
+        color: white;
+        cursor: pointer;
+        padding: 15px 30px;
+        border-radius: 20px;
+      }
+
+      #myBtn:hover {
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body style="background-image: url('./image/unsplash_sJuDgtkUyYs.png'); background-repeat:no-repeat; background-attachment: fixed;"> 
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-up-circle-fill"></i></button>
+    
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse align-items-center justify-content-md-center" id="navbarsExample10">
+            <ul class="navbar-nav align-items-center" style="font-weight: bold">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="bs-tk copy.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pengajar.html">Pengajar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="fasilitas.html">Fasilitas</a>
+              </li>
+              <li class="nav-item">
+                <img src="image/Logo.png" alt="logo" height="60px" />
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="profil.html">Profil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="" style="padding-right: 20px">
+            <a href="Login.html" class="btn btn-primary" style="background-color: #479242; color: white !important; text-shadow: none;">Login</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main style="padding-bottom: 30px;">
+      <div class="container">
+        <h1 style="text-align: center; margin: 30px auto; font-weight: 700 !important;">Pendaftaran<span style="color: #2de90f;"><br>TK Al-Muhajirin</span></h1>
+        <section class="card reguler" id="card">
+        <div class="row">
+          <div class="col-md-6 ">
+            <input type="checkbox" name="reguler" id="regClass" />
+            <label for="regClass" style="font-size: 32px; font-weight: 700;">Kelas Reguler</label>
+            <hr>
+            <p style="margin-top: 30px;">Kegiatan</p>
+            <ul style="color: black;">
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus totam reprehenderit porro dolore dolorum ullam eveniet ex, sed, reiciendis dolor, suscipit quaerat ducimus hic aliquam iusto consectetur dolores
+                necessitatibus laudantium?
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora inventore cumque molestias quia minus quibusdam explicabo est saepe vero ipsum, veritatis animi aliquid esse voluptatibus labore expedita odit libero
+                accusamus.
+              </li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi saepe accusantium minus, unde praesentium alias iure consequatur, nostrum illo officia vel vero atque quis, nihil magnam odio esse harum sunt.</li>
+            </ul>
+            <a class="btn btn-info" href="#" style="background-color: #479242; color: white; font-weight:400 !important; text-shadow: none;">Download Kurikulum TK Al-Muhajirin</a>
+          </div>
+          <div class="col-md-6 text-center d-flex align-items-center" >
+            <div class="row mt-3">
+            <h2 style="font-size: 32px; font-weight: 700;">Kelas Reguler</h2>
+            <h2 style="font-size: 32px; font-weight: 700;">Rp. 2.000.000</h2>
+          </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section class="card ekskul">
+      <div class="row text-center">
+        <h2>Ekstrakurikuler</h2>
+        <div class="col-md-4">
+          <input type="radio" name="ekstra" id="seni" />
+          <label for="seni" style="font-size: 32px; font-weight: 700;"> Kelas Seni </label>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur magnam voluptatem nobis eligendi debitis temporibus, aut, sit in obcaecati dolorum ducimus reprehenderit neque vel distinctio quisquam eius quo architecto
+            fugit.
+          </p>
+          <a class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#" style="background-color: #479242; color: white; font-weight:400 !important; text-shadow: none;">Detail</a>
+          <h4>Rp. 300.000</h4>
+      </div>
+        <div class="col-md-4">
+          <input type="radio" name="ekstra" id="coding" />
+          <label for="coding" style="font-size: 32px; font-weight: 700;"> Kelas Coding </label>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur magnam voluptatem nobis eligendi debitis temporibus, aut, sit in obcaecati dolorum ducimus reprehenderit neque vel distinctio quisquam eius quo architecto
+            fugit.
+          </p>
+          <a class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#" style="background-color: #479242; color: white; font-weight:400 !important; text-shadow: none;">Detail</a>
+          <h4>Rp. 300.000</h4>
+        </div>
+        <div class="col-md-4">
+          <input type="radio" name="ekstra" id="piano" />
+          <label for="piano" style="font-size: 32px; font-weight: 700;"> Kelas Piano </label>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur magnam voluptatem nobis eligendi debitis temporibus, aut, sit in obcaecati dolorum ducimus reprehenderit neque vel distinctio quisquam eius quo architecto
+            fugit.
+          </p>
+          <a class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#" style="background-color: #479242; color: white; font-weight:400 !important; text-shadow: none;">Detail</a>
+          <h4>Rp. 300.000</h4>
+        </div>
+      </div>
+    </section>
+      <hr />
+      <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+              <div class="modal-content" style="background-image: url('./image/unsplash_Xh6BpT-1tXo.png');">
+                <div class="modal-header justify-content-center">
+                  <h1 class="modal-title text-center" id="exampleModalLabel">Kelas Seni</h1>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h2>Kegiatan</h2>
+                        <ol>
+                          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        </ol>
+                        <h3>Rp.300.000</h3>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="card">
+                          <div class="card-body">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                              <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                              </div>
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img src="./image/sentra-seni-dan-kreativitas.jpg" width="400px" height="200px" class="d-block w-100" alt="kelas seni">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="./image/sentra-balok.jpg" width="400px" height="200px" class="d-block w-100" alt="kelas seni">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="./image/sentra-persiapan.jpg" width="400px" height="200px" class="d-block w-100" alt="kelas seni">
+                                </div>
+                              </div>
+                              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="container py-5 h-100">
+          <div class="row justify-content-center align-items-center h-100">
+            <div class="col-12 col-lg-9 col-xl-7">
+              <div class="card shadow-2-strong card-registration" style="border-radius: 15px">
+                <div class="card-body p-4 p-md-5">
+                  <form>
+                    <div class="row">
+                      <div class="col-md-12 mb-4">
+                        <div class="form-outline">
+                          <label class="form-label" for="firstName">Nama Anak</label>
+                          <input type="text" id="firstName" class="form-control form-control-lg" />
+                        </div>
+                      </div>
+                      <div class="col-md-12 mb-4">
+                        <div class="form-outline">
+                          <label class="form-label" for="lastName">Tanggal Lahir Anak</label>
+                          <input type="text" id="lastName" class="form-control form-control-lg" />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-6 mb-4 d-flex align-items-center">
+                        <div class="form-outline datepicker w-100">
+                          <label for="birthdayDate" class="form-label">Tanggal Lahir</label>
+                          <input type="date" class="form-control form-control-lg" id="birthdayDate" />
+                        </div>
+                      </div>
+                      <div class="col-md-12 mb-4">
+                        <h6 class="mb-2 pb-1">Jenis Kelamin:</h6>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender" value="option1" checked />
+                          <label class="form-check-label" for="femaleGender">Laki-Laki</label>
+                        </div>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender" value="option2" />
+                          <label class="form-check-label" for="maleGender">Perempuan</label>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-12 mb-4">
+                        <div class="form-outline">
+                          <label class="form-label" for="emailAddress">Alamat</label>
+                          <textarea class="form-control" name="" id="alamat" cols="30" rows="6"></textarea>
+                        </div>
+                      </div>
+                      <div class="col-md-12 mb-4">
+                        <div class="form-outline">
+                          <label class="form-label" for="emailAddress">Nama Ayah / Wali</label>
+                          <input type="email" id="emailAddress" class="form-control form-control-lg" />
+                        </div>
+                      </div>
+                      <div class="col-md-12 mb-4">
+                        <div class="form-outline">
+                          <label class="form-label" for="phoneNumber">Phone Number</label>
+                          <input type="tel" id="phoneNumber" class="form-control form-control-lg" />
+                        </div>
+                      </div>
+                      <div class="col-md-12 mb-3">
+                        <label for="formFile" class="form-label">Upload Foto Anak</label>
+                        <input class="form-control" type="file" id="formFile">
+                      </div>
+                    </div>
+
+                    
+
+                    <div class="mt-4 pt-2">
+                      <input class="btn btn-primary btn-lg" type="submit" value="Konfirmasi" style="background-color: #479242; color: white;"/>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer style="background-image: url('./image/Group99.png') !important;">
+      <div class="row align-items-center px-5 pt-2" id="footer">
+        <div class="col-md-4 m-0">
+          <div class="row">
+            <div class="col-md-4 col-sm-12">
+              <ul style="list-style-type: none">
+                <div class="li-kiri">
+                  <h3 style="font-weight: 700;">Content</h3>
+                </div>
+              </ul>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <ul style="list-style-type: none">
+                <div class="li-kiri">
+                  <li><a style="text-decoration: none; color: white; font-weight: 700;" href="bs-tk copy.html">Home</a></li>
+                  <li><a style="text-decoration: none; color: white; font-weight: 700;" href="pengajar.html">Pengajar</a></li>
+                  <li><a style="text-decoration: none; color: white; font-weight: 700;" href="fasilitas.html">Fasilitas</a></li>
+                </div>
+              </ul>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <ul style="list-style-type: none; text-decoration: none;">
+                  <div class="li-kanan">
+                    <li><a style="text-decoration: none; color: white; font-weight: 700;" href="Shop.html">Shop</a></li>
+                    <li><a style="text-decoration: none; color: white; font-weight: 700;" href="profil.html">Profil</a></li>
+                    <li><a style="text-decoration: none; color: white; font-weight: 700;" href="contact.html">Contact</a></li>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 align-items-center">
+          <div class="foot-tengah" style="text-align: center">
+            <a href="#"><img src="image/fb.png" alt="" /></a>
+            <a href="#"><img src="image/twit.png" alt="" /></a>
+            <a href="#"><img src="image/instagram.png" alt="" /></a>
+            <a href="#"><img src="image/whatsapp.png" alt="" /></a>
+            <a href="#"><img src="image/gmail.png" alt="" /></a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="foot-kanan">
+            <img src="./image/Logowhite.png" alt="" height="90px" />
+            <p>©TK Al-Muhajirin 2022</p>
+          </div>
+        </div>
+      </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script>
+    // Get the button
+      let mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+  </script>
+  </body>
+</html>

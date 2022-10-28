@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <style>
+      html::-webkit-scrollbar {
+        display: none;
+      }
+      .bom::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-fixed" style="width: 100%; z-index: 100">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-5" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#pengertian">Pengertian</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tabel">Tabel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#detail">Detail</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <!-- <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+        </div>
+      </div>
+    </nav>
+    <div class="container" id="pengertian" style="padding-top: 20px">
+      <img src="https://source.unsplash.com/900x300?bomb" class="img-fluid mt-3" alt="" width="1300" height="300" style="border-radius: 10px; padding-top: 30px" />
+    </div>
+    <div class="container">
+      <h1>Pengertian Bom</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam debitis, necessitatibus earum quod voluptas atque, totam quaerat distinctio error architecto incidunt repudiandae consequatur perspiciatis doloribus saepe officia
+        iste soluta dolorum!
+      </p>
+    </div>
+    <div class="container" id="tabel">
+      <h1>Ini Tabel Bom</h1>
+      <div class="dropdown mb-2">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Dropdown button</button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <div class="table-responsive">
+        <table class="table table-dark table-hover table-striped">
+          <thead>
+            <tr>
+              <th scope="col">No</th>
+              <th scope="col">Nama Bom</th>
+              <th scope="col">Radius</th>
+              <th scope="col">Best Seller</th>
+              <th scope="col">Stock</th>
+              <th scope="col">Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Molotov</td>
+              <td>2Meter</td>
+              <td>Ya</td>
+              <td>8</td>
+              <td>Ready</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Hand Grenade</td>
+              <td>2Meter</td>
+              <td>Ya</td>
+              <td>8</td>
+              <td>Ready</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Petasan</td>
+              <td>2Meter</td>
+              <td>Ya</td>
+              <td>8</td>
+              <td>Ready</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>C4</td>
+              <td>2Meter</td>
+              <td>Ya</td>
+              <td>8</td>
+              <td>Ready</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>Gas LGP</td>
+              <td>2Meter</td>
+              <td>Ya</td>
+              <td>8</td>
+              <td>Ready</td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>Nuklir</td>
+              <td>2Meter</td>
+              <td>Ya</td>
+              <td>8</td>
+              <td>Ready</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="container" id="detail">
+      <h1>Detail Bom</h1>
+      <div class="row p-0" style="height: 630px; overflow: scroll">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img src="https://source.unsplash.com/300x200?bomb" class="card-img-top" alt="aasdasdaw" />
+            <div class="card-body">
+              <h5 class="card-title">Molotov</h5>
+              <p class="card-text">Bisa Meledak</p>
+              <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#detail-bom">Beli</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img src="https://source.unsplash.com/300x200?bomb" class="card-img-top" alt="aasdasdaw" />
+            <div class="card-body">
+              <h5 class="card-title">Hand Grenade</h5>
+              <p class="card-text">Bisa Meledak</p>
+              <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#detail-bom">Beli</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img src="https://source.unsplash.com/300x200?bomb" class="card-img-top" alt="aasdasdaw" />
+            <div class="card-body">
+              <h5 class="card-title">Petasan</h5>
+              <p class="card-text">Tidak Bisa Meledak</p>
+              <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#detail-bom">Beli</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img src="https://source.unsplash.com/300x200?bomb" class="card-img-top" alt="aasdasdaw" />
+            <div class="card-body">
+              <h5 class="card-title">C4</h5>
+              <p class="card-text">Bisa Meledak</p>
+              <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#detail-bom">Beli</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img src="https://source.unsplash.com/300x200?bomb" class="card-img-top" alt="aasdasdaw" />
+            <div class="card-body">
+              <h5 class="card-title">Gas LPG</h5>
+              <p class="card-text">Multifungsi bisa buat Masak</p>
+              <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#detail-bom">Beli</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img src="https://source.unsplash.com/300x200?bomb" class="card-img-top" alt="aasdasdaw" />
+            <div class="card-body">
+              <h5 class="card-title">Nuklir</h5>
+              <p class="card-text">Tidak dijual</p>
+              <a href="#" class="btn btn-danger disabled">Beli</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="detail-bom" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Bom Molotov</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">Harga Bom</div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Beli</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Dropdown button</button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

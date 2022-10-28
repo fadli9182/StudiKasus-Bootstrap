@@ -1,0 +1,61 @@
+* {
+  font-family: "Mali", cursive !important;
+}
+
+#heros {
+  background-size: cover;
+  background: yellowgreen;
+  margin: 0;
+  padding: 0;
+}
+
+#fasilitas {
+  background: violet;
+  padding: 20px 115px;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.foot-tengah {
+  background-color: white;
+  border-radius: 10px;
+  padding-top: 2px;
+  box-shadow: inset 0px 16px 4px rgba(0, 0, 0, 0.25);
+  padding: 20px 0;
+}
+
+.foot-tengah > a {
+  margin-left: 10px;
+  margin-right: 0;
+  padding-right: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.foot-kanan {
+  text-align: center;
+}
+
+footer {
+  background-image: url("./image/Group99") !important;
+  color: white;
+  font-weight: 700;
+}
+
+a {
+  color: white;
+}
+
+nav a {
+  font-weight: 700 !important;
+  color: #479242 !important;
+}
+
+nav a:hover {
+  color: black !important;
+  text-decoration: underline;
+}

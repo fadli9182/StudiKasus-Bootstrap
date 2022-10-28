@@ -1,0 +1,84 @@
+* {
+  font-family: "Mali", cursive !important;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url("https://source.unsplash.com/900x900x?kindergarten");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.title {
+  font-weight: 700 !important;
+  font-size: 64px !important;
+  line-height: 83px;
+  color: #479242;
+}
+
+.daftar {
+  background-color: #479242 !important;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+.daftar:hover {
+  opacity: 100%;
+  background: #479242;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0) !important;
+}
+
+.daftar a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.daftar a:hover {
+  color: white;
+}
+
+.foot-tengah {
+  background-color: white;
+  border-radius: 10px;
+  padding-top: 2px;
+  height: 34px;
+  box-shadow: inset 0px 16px 4px rgba(0, 0, 0, 0.25);
+}
+
+.foot-tengah > a {
+  margin-left: 10px;
+  margin-right: 0;
+  padding-right: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.foot-kanan {
+  text-align: center;
+}
+
+footer {
+  color: white;
+  width: 100vw;
+}
+
+#footer > a {
+  color: white;
+}
+
+.lupa {
+  color: white;
+}
+
+.card {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
