@@ -1,0 +1,89 @@
+* {
+  font-family: "Mali", cursive !important;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.fasilitas {
+  margin-bottom: 30px;
+}
+
+hr {
+  border: 0;
+  height: 3px !important;
+  background: #333;
+  background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+h1 {
+  color: #479242;
+  font-weight: 700 !important;
+  font-size: px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+p,
+label {
+  color: #479242;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.container h2 {
+  color: #479242;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.foot-tengah {
+  background-color: white;
+  border-radius: 10px;
+  padding-top: 2px;
+  box-shadow: inset 0px 16px 4px rgba(0, 0, 0, 0.25);
+  padding: 20px 0;
+}
+
+.foot-tengah > a {
+  margin-left: 10px;
+  margin-right: 0;
+  padding-right: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.foot-kanan {
+  text-align: center;
+}
+
+footer {
+  background-image: url("./image/Group99") !important;
+  color: white;
+  font-weight: 700;
+}
+
+#footer > a {
+  color: white;
+}
+
+nav a {
+  font-weight: 700 !important;
+  color: #479242 !important;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+nav a:hover {
+  background-color: rgba(202, 228, 228, 0.75);
+  border-radius: 30px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+button {
+  border: 0.5px solid gray;
+  border-radius: 10px !important;
+  padding: 8px;
+}
